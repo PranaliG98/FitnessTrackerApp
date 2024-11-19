@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle -->
+    <item>
+        <shape android:shape="ring" android:innerRadiusRatio="2.5" android:thickness="3dp" android:useLevel="false">
+            <solid android:color="#009688" /> <!-- Light gray background circle -->
+        </shape>
+    </item>
+
+    <!-- Progress bar circle -->
+    <item>
+        <rotate android:fromDegrees="270">
+            <shape android:shape="ring" android:innerRadiusRatio="2.5" android:thickness="3dp">
+                <solid android:color="@android:color/transparent" />
+                <stroke
+                    android:width="3dp"
+                    android:color="#009688" /> <!-- Orange progress stroke -->
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
