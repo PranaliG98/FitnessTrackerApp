@@ -126,4 +126,7 @@ o	Choose the type of reminder (e.g., running, walking, water intake, jogging).
 •	ActivityTrackingActivity: Tracks running, jogging, and walking, showing goals and progress.
 •	NotificationFragment & AddReminderActivity: Displays notifications and allows users to set reminders.
 •	UserFragment: Manages user profile and allows for edits and signing out.
+
+
+
 https://github.com/user-attachments/assets/c757ef57-a97c-4995-b851-871f7ed48835
